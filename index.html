@@ -190,7 +190,7 @@
             </div>
         </div>
     </section>
-    <section class="py-11 sm:pt-36 sm:pb-96 max-sm:px-4 bg-white">
+    <section class="py-11 pb-96 max-sm:px-4 bg-white">
         <div class="container mx-auto">
             <h1 class="text-[#179800] text-4xl font-semibold mb-12">Customer FAQs</h1>
             <div class="collapse collapse-arrow bg-gradient-to-t from-green-800 to-green-700 text-white mb-4">
@@ -216,33 +216,46 @@
               </div>
         </div>
     </section>
-    <section class="relative">
-        <div class="flex justify-center">
-            <div class="container mx-auto px-24 py-14 bg-[#EFEBE3] absolute -top-60 flex justify-between items-center">
-                <div class="">
-                    <img src="assets/vegetable-busket.png" alt="vegetable-busket">
-                </div>
-                <div class="">
-                    <h1 class="text-black text-4xl font-semibold mb-6">Get Grocery News!</h1>
-                    <p class="text-black text-xl mb-10">Exclusive training tips, ticks, product deals and more.</p>
-                    <input type="text" placeholder="Enter email" class="py-4 pl-4 w-full bg-white outline-none text-black rounded-lg mb-10">
-                    <button class="text-white px-7 py-2 rounded-lg bg-[#179800] text-xl">Subscribe</button>
+    <div class="max-sm:px-4">
+        <section class="relative">
+            <div class="sm:flex sm:justify-center">
+                <div class="container mx-auto max-sm:px-3 px-24 py-14 bg-[#EFEBE3] absolute -top-60 flex justify-between items-center max-sm:flex-col rounded-2xl">
+                    <div class="">
+                        <img src="assets/vegetable-busket.png" alt="vegetable-busket" class="max-sm:max-w-60">
+                    </div>
+                    <div class="max-sm:text-center">
+                        <h1 class="text-black text-4xl font-semibold mb-6 max-sm:text-[#179800] max-sm:text-xl">Get Grocery News!</h1>
+                        <p class="text-black text-xl mb-10 max-sm:text-base">Exclusive training tips, ticks, product deals and more.</p>
+                        <input type="text" placeholder="Enter email" class="py-4 pl-4 w-full bg-white outline-none text-black rounded-lg mb-10">
+                        <button class="text-white px-7 py-2 rounded-lg bg-[#179800] text-xl hover:bg-inherit duration-200 ease-in-out hover:text-black border border-[#179800]">Subscribe</button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <footer class="pt-96 bg-[#179800] pb-36">
-        <div class="container mx-auto flex justify-between items-center">
-            <div>
-                <img src="assets/logo-footer.png" alt="logo-footer">
-                <p class="text-white opacity-[.7] text-xl mt-3">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#"></a></li>
-                </ul>
+        </section>
+    </div>
+    <footer class="pt-96 bg-[#179800] pb-12 sm:pb-36">
+        <div class="container mx-auto">
+            <div class="flex justify-between sm:items-center max-sm:gap-8 max-sm:px-4 max-sm:flex-col">
+                <div>
+                    <img src="assets/logo-footer.png" alt="logo-footer">
+                    <p class="text-white opacity-[.7] text-xl mt-3">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+                </div>
+                <div>
+                    <ul class="text-[#EFEBE3] text-xl">
+                        <li class="mb-8"><a href="#">Product</a></li>
+                        <li class="mb-8"><a href="#">Services</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="sm:translate-y-10">
+                    <p class="text-[#EFEBE3] text-base mb-2">Follow Us</p>
+                    <div>
+                        <i class="fab fa-facebook text-[#EFEBE3] text-2xl mr-4"></i>
+                        <i class="fab fa-instagram text-[#EFEBE3] text-2xl mr-4"></i>
+                        <i class="fa-brands fa-linkedin text-[#EFEBE3] text-2xl mr-4"></i>
+                        <i class="fa-brands fa-youtube text-[#EFEBE3] text-2xl"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
